@@ -322,7 +322,7 @@ bool CGFontGetGlyphsForUnichars(CGFontRef, unichar[], CGGlyph[], size_t);
         [self drawBox:context color:[bg CGColor] boxRect:charRect];
     }
 
-    // Fill a rectangle with the cursor. drawRow consideres scrollback buffer;
+    // Fill a rectangle with the cursor. drawRow considered scrollback buffer;
     // cursorY is relative to the non-scrollback screen.
     int cursorY = [dataSource cursorY];
     int cursorX = [dataSource cursorX];
